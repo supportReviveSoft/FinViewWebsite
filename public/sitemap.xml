@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://finview-web.vercel.app/</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://finview-web.vercel.app/finview_financial_summary.png</image:loc>
+      <image:title>FinView Financial Summary Dashboard — Net Worth, Salary &amp; Investment Projections</image:title>
+      <image:caption>FinView desktop app showing combined salary, assets, investments and net worth projections</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://finview-web.vercel.app/finview_projections_breakdown.png</image:loc>
+      <image:title>FinView Projection Details — Salary, Assets, Investments Breakdown</image:title>
+      <image:caption>Detailed projection table showing current vs projected values for salary, real estate, and 401k</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://finview-web.vercel.app/finview_post_retirement.png</image:loc>
+      <image:title>FinView Investment Growth Chart — 401k and IRA Balance Over Time</image:title>
+      <image:caption>Interactive chart showing 401k and IRA balance growth over time with portfolio total</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://finview-web.vercel.app/finview_projected_value.png</image:loc>
+      <image:title>FinView Current vs Projected Asset Value Chart</image:title>
+      <image:caption>Bar chart comparing current and projected values for primary residence and 401k accounts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://finview-web.vercel.app/finview_ai_assistant.png</image:loc>
+      <image:title>FinView AI Financial Assistant — Context-Aware Financial Advisor</image:title>
+      <image:caption>Built-in AI financial advisor providing context-aware insights and what-if scenario analysis</image:caption>
+    </image:image>
+  </url>
+</urlset>
