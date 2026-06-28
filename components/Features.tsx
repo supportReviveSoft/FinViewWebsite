@@ -36,7 +36,7 @@ const smallFeatures = [
     icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5"><path d="M19 21V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v16"/><path d="M1 21h22"/><path d="M9 7h6"/><path d="M9 11h6"/></svg>,
     title: "Pension Calculator",
     desc: "Compare lump sum vs annuity and calculate break-even age.",
-    color: "from-rose-500 to-rose-600 shadow-rose-600/20",
+    color: "from-indigo-500 to-indigo-600 shadow-indigo-600/20",
   },
   {
     icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>,
