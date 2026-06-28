@@ -46,7 +46,7 @@ export default function Screenshots() {
       <div className="max-w-6xl mx-auto">
 
         <div className="text-center mb-14">
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 mb-4">
+          <h2 className="font-[var(--font-sora)] text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 mb-4">
             See it in action
           </h2>
           <p className="text-slate-500 text-lg max-w-xl mx-auto">

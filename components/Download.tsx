@@ -97,7 +97,7 @@ export default function Download() {
               Latest release {loading ? "…" : `v${version}`}
             </span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">Download FinView</h2>
+          <h2 className="font-[var(--font-sora)] text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">Download FinView</h2>
           <p className="text-white/60 text-lg">Free forever. No credit card. No cloud.</p>
         </div>
 
