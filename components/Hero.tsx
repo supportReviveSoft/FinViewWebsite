@@ -3,8 +3,14 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-white flex flex-col">
-      {/* Subtle radial glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_40%_at_50%_0%,rgba(37,99,235,0.08),transparent)]" />
+      {/* Animated gradient background */}
+      <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
+        <div className="hero-blob-1 absolute -top-32 -left-20 w-[480px] h-[480px] rounded-full bg-blue-400/30 blur-3xl" />
+        <div className="hero-blob-2 absolute top-10 right-[-140px] w-[420px] h-[420px] rounded-full bg-cyan-300/25 blur-3xl" />
+        <div className="hero-blob-3 absolute top-72 left-1/3 w-[360px] h-[360px] rounded-full bg-indigo-300/20 blur-3xl" />
+        {/* Fade to white so content stays readable */}
+        <div className="absolute inset-0 bg-gradient-to-b from-white/0 via-white/50 to-white" />
+      </div>
 
       {/* Nav */}
       <nav className="relative z-10 flex items-center justify-between px-8 py-5 max-w-7xl mx-auto w-full border-b border-slate-100">
